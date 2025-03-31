@@ -1,12 +1,12 @@
 export const metadata = {
-    title: 'Support',
+    title: 'Shows',
 }
 
 
 export default function () {
     return (
         <>
-            <h1>Поддержка</h1>
+            <h1>Shows</h1>
         </>
     )
 }
