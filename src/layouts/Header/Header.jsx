@@ -1,5 +1,12 @@
+import './Header.scss'
+
 const Header = () => {
-    return <header>Заглушка Header</header>
+    return (
+     <header className="header">
+        Header
+
+     </header>
+    )
 }
 
 export default Header
