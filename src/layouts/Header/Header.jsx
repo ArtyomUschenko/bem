@@ -1,6 +1,7 @@
 import './Header.scss'
 import Logo from "@/componenents/Logo"
 import classNames from 'classnames'
+import Button from "@/componenents/Button";
 
 
 const Header = (props) => {
@@ -53,6 +54,17 @@ const Header = (props) => {
                 </ul>
 
             </nav>
+            <div className="header__actions">
+                <Button
+                    className="header__button"
+                    label="Search"
+                />
+                <Button
+                    href="#"
+                    label="Notifications"
+                    isLabelHidden
+                />
+            </div>
         </div>
      </header>
     )
