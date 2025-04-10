@@ -58,7 +58,7 @@ const Header = (props) => {
                 <Button
                     className="header__button"
                     label="Search"
-                    isLabelHidden
+                    isLabelHidden={false}
                     iconName="search"
                 />
                 <Button
